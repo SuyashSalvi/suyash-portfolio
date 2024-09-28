@@ -1,0 +1,38 @@
+<div class="sidebar">
+  {{ if .Params.toc }}
+    {{ with .TableOfContents }}
+      <aside class="toc">
+        <nav>
+          <p class="sidebar__heading">Table Of Contents</p>
+          {{ . }}
+          {{ if $.Params.type }}
+            {{ if $.Site.Data.json_resume.en.skills }}
+              <a href="#skills">Skills</a><br />
+            {{ end }}
+            {{ if $.Site.Data.json_resume.en.certificates }}
+              <a href="#certificates">Certificates</a>
+            {{ end }}
+          {{ end }}
+        </nav>
+      </aside>
+      <hr />
+    {{ end }}
+  {{ end }}
+
+  {{ $cv := index $.Site.Data.json_resume $.Site.Language.Lang }}
+  {{ if $cv.basics }}
+    <aside class="bio">
+      {{ partial "json-resume/basics.html" . }}
+
+      {{ if $.Site.Params.tagCloud.enable }}
+        <hr />
+      {{ end }}
+    </aside>
+  {{ end }}
+
+  {{ if $.Site.Params.tagCloud.enable }}
+    <aside>
+      {{ partial "tag-cloud.html" . }}
+    </aside>
+  {{ end }}
+</div>

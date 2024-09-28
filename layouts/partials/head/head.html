@@ -1,0 +1,34 @@
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>
+    Portfolio
+</title>
+
+<!-- add icon link -->
+<link rel="icon" href=
+"https://github.com/SuyashSalvi281998/logo/blob/main/ss-high-resolution-logo-transparent-2.png?raw=true"
+      type="image/x-icon">
+  {{ partial "head/resource-hints.html" . }}
+  {{ partial "head/seo.html" . }}
+
+
+  <!-- Extensibility -->
+  {{ partial "head/head_start.html" . }}
+
+  {{ partial "head/stylesheets.html" . }}
+
+  {{ partial "head/dark-mode.html" . }}
+
+  {{ partial "head/favicons.html" . }}
+
+
+  <!-- Extensibility -->
+  {{ partial "head/head_end.html" . }}
+
+  {{ $js := resources.Get "js/smtpjs.js" | resources.Minify }}
+  <script src="{{ $js.Permalink }}"></script> 
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  
+</head>

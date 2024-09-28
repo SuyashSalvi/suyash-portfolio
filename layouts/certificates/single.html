@@ -1,0 +1,12 @@
+{{- with $.Site.Data.json_resume.en.certificates -}}
+  <h2>Certificates</h2>
+  <ul>
+    {{- range . -}}
+      <li>
+        <strong>{{ .name }}</strong> - {{ .issuer }}<br>
+        {{ .details }}<br>
+        <a href="{{ .url }}" target="_blank">More Info</a>
+      </li>
+    {{- end -}}
+  </ul>
+{{- end -}}

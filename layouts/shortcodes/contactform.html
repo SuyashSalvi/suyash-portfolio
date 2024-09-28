@@ -1,0 +1,52 @@
+<form
+  id="contact-form"
+  style="background-color: var(--bg); color: var(--fg); padding: 20px; border-radius: 5px;"
+>
+  <label for="name" style="font-weight: bold; margin-bottom: 5px;">Name:</label
+  ><br />
+  <input
+    type="text"
+    id="name"
+    name="name"
+    style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid var(--bg3); border-radius: 5px; background-color: var(--bg1); color: var(--fg); transition: border-color 0.3s;"
+    onfocus="this.style.borderColor = 'var(--primary)';"
+    onblur="this.style.borderColor = 'var(--bg3)';"
+    onclick="this.style.borderColor = 'var(--primary)';"
+  />
+  <!-- Error message, initially hidden -->
+  <label for="email" style="font-weight: bold; margin-bottom: 5px;"
+    >Email:</label
+  ><br />
+  <input
+    type="email"
+    id="email"
+    name="email"
+    style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid var(--bg3); border-radius: 5px; background-color: var(--bg1); color: var(--fg);"
+  /><br />
+  <div id="email-error" style="color: var(--red2); display: none;">
+    Email is required
+  </div>
+  <!-- Error message, initially hidden -->
+  <label for="message" style="font-weight: bold; margin-bottom: 5px;"
+    >Message:</label
+  ><br />
+  <textarea
+    id="message"
+    name="message"
+    rows="4"
+    cols="50"
+    style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid var(--bg3); border-radius: 5px; background-color: var(--bg1); color: var(--fg);"
+  ></textarea
+  >
+  <div id="message-error" style="color: var(--red2); display: none;">
+    Message is required
+  </div> <br /><br />
+  <!-- Error message, initially hidden -->
+  <input
+    type="submit"
+    value="Submit"
+    style="background-color: var(--primary); color: var(--bg); border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;"
+    onmouseover="this.style.backgroundColor = 'var(--primary-alt)'"
+    onmouseout="this.style.backgroundColor = 'var(--primary)'"
+  />
+</form>

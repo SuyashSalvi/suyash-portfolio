@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <div class="content-section">
+    <a style="font-size: 40px;">welcome-to-my-website</a>
+    <p>This is the place where I share my thoughts and notes about things that I’m excited about and working on and hope to connect with people having a similar mindset. I’d love to hear from you!
+      <br><br>
+      Check out my latest blog posts below.</p>
+    
+  </div>
+  <!-- See https://gohugo.io/functions/where/#mainsections -->
+  {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+  {{ $paginator := .Paginate $pages }}
+  {{ partial "post-list.html" $paginator }}
+{{ end }}

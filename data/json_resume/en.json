@@ -1,0 +1,231 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Suyash Salvi",
+    "label": "Computer Engineer",
+    "image": "https://github.com/SuyashSalvi281998/image/blob/main/WhatsApp%20Image%202023-10-04%20at%2018.13.36.jpeg?raw=true",
+    "email": "suyashsalvi3@gmail.com",
+    "phone": "+1(408)-640-8664",
+    "summary": "▶ 3+ Years of Data Engineering Expertise.\n ▶End-to-End Data Solutions.\n ▶Cloud Mastery.\n ▶Real-Time Data Streaming.\n ▶Passion for Data-Driven Impact.\n ▶Hands-On Experience in Data Optimization.",
+    "location": {
+      "city": "📍 Santa Clara"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "SuyashSalvi",
+        "url": "https://github.com/SuyashSalvi"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "suyash-salvi",
+        "url": "https://www.linkedin.com/in/suyash-salvi/"
+      }
+    ]
+  },
+  "volunteer": [
+    {
+      "organization": "Santa Clara University",
+      "position": "Graduate Research Assistant",
+      "startDate": "2023-08",
+      "endDate": "2023-12",
+      "highlights": [
+        "Assisted in teaching Introduction to Algorithms and Mathematics: graded assignments, provided feedback, and addressed queries, including broad range of algorithms, and derivations, for diverse cohort of 60+ students."
+      ]
+    },
+    {
+      "organization": "Mumbai University - Team Vaayushastra",
+      "position": "Software Engineer",
+      "startDate": "2018-07",
+      "endDate": "2019-06",
+      "highlights": [
+        "Developed Java-based GUI to display details of RC Plane to Judges in SAE international, Texas.",
+        "Engineered Arduino code for real-time location tracking of the RC plane.",
+        "Designed and implemented functionality to open the gate of the RC plane upon button press, enhancing operational capabilities and user control, to drop the payload."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Santa Clara University",
+      "url": "https://www.scu.edu",
+      "area": "Computer Science & Engineering",
+      "studyType": "Masters",
+      "startDate": "2023-04",
+      "endDate": "2025-03",
+      "score": "3.9",
+      "courses": [
+        "COEN240 - Machine Learning",
+        "COEN233 - Computer Networks",
+        "COEN266 - Airtificial Intelligence",
+        "COEN279 - Design & Analysis of Algorithm"
+      ]
+    },
+    {
+      "institution": "Mumbai University",
+      "url": "https://mu.ac.in",
+      "area": "Computer Science & Engineering",
+      "studyType": "Bachelor's",
+      "startDate": "2016-06",
+      "endDate": "2020-05",
+      "score": "7.38",
+      "courses": ["Software Engineering", "Cloud Computing"]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Machine learning-based: Selection of optimal cricket team based on the players’ performance",
+      "publisher": "IEEE",
+      "releaseDate": "2020-10-07",
+      "url": "https://ieeexplore.ieee.org/document/9137891",
+      "summary": "Designed an application to automate cricket team selection, to reduce human errors and selection bias."
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Marathi",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Reading",
+      "keywords": ["Sci-fi", "Mythological fiction"]
+    },
+    {
+      "name": "Dancing",
+      "keywords": ["Urban", "Bollywood", "Locking", "House"]
+    },
+    {
+      "name": "Musical instruments",
+      "keywords": ["Tabla", "Guitar"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Microsoft Certified: Azure Fundamentals",
+      "issuer": "Microsoft",  
+      "url": "https://www.credly.com/badges/fdefd7ca-e8ac-4acf-a800-4a6ebeefd610"
+    },
+    {
+      "name":"The Complete Node.js Developer Course",
+      "issuer": "Udemy",  
+      "url": "https://www.udemy.com/certificate/UC-ec3cd9c7-452a-420d-8cb0-019f3865ce08/"
+    },
+    {
+      "name":"The Complete React Developer Course (w/ Hooks and Redux)",
+      "issuer": "Udemy",  
+      "url": "https://www.udemy.com/certificate/UC-d5fa2e02-5971-4a7d-bfdd-793c42b86895/"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Selection of optimal team",
+      "description": "An app that removes human errors and bias.",
+      "endDate": "2020",
+      "highlights": [
+        "Designed a web app to automate cricket team selection, attaining 73% overall accuracy rate.",
+        "Implemented Jest unit tests (97% coverage) for web app functionality, ensuring accurate cricket team selection."
+      ],
+      "url": "https://github.com/SuyashSalvi/Selection-of-Optimal-team-based-on-players-performance",
+      "roles": ["ReactJS", "Flask", "Git", "ML(Random Forest)"]
+    },
+    {
+      "name": "Stock Market Notifications",
+      "description": "Broker system overseeing key distributed algorithms and a modular client-server architecture",
+      "endDate": "2024",
+      "highlights": [
+        "Crafted and implemented a robust broker system adept in overseeing vital distributed algorithms such as Broadcast, Leader Election, Consistency, Heartbeat Protocol, and Mutual Exclusion.",
+        "Employed ReactJs and Spring Boot to construct a modular client-server framework, augmenting maintainability."
+      ],
+      "url": "https://github.com/SuyashSalvi/PublishSubscriberStockNews",
+      "roles": ["NodeJS", "Spring Boot", "MongoDB", "ReactJS", "AWS"]
+    },
+    {
+      "name": "NLP Text Summarization Application",
+      "description": "Text summarization app providing efficient condensation of textual content into summaries",
+      "endDate": "2024",
+      "highlights": [
+        "Engineered NLP-based text summarization app proficient in condensing lengthy textual content into summaries.",
+        "Implemented deep learning techniques using TensorFlow for natural language processing, including tokenization, sequence-to-sequence modeling, and attention mechanisms.",
+        "Utilized AWS cloud services such as Lambda for serverless computing, S3 for data storage, and EC2 for hosting the application, ensuring scalability, reliability, and cost-effectiveness."
+      ],
+      "url": "https://github.com/SuyashSalvi/Text_Summarization",
+      "roles": ["Python", "TensorFlow", "Flask", "AWS"]
+    },
+    {
+      "name": "Real-Time Video Conferencing Platform",
+
+      "endDate": "2021",
+      "highlights": [
+        "Devised real-time WebRTC-based video conferencing utilizing React Router and Redux.",
+        "Created scalable WebSocket server using Redis, boosting real-time chat and meeting collaboration."
+      ],
+      "url": "https://github.com/SuyashSalvi/Meet",
+      "roles": [
+        "ReactJS",
+        "NodeJS",
+        "ExpressJS",
+        "WebRTC",
+        "RESTful API",
+        "JWT"
+      ]
+    },
+    {
+      "name": "Face Recognition App",
+      "endDate": "2024",
+      "highlights": [
+        "Investigated face detection via Haar cascades and HOG, feature extraction using PCA, LBP, and LDA, classification employing SVM, k-NN, and ensemble methods, achieving up to 83% accuracy.",
+        "Explored deep learning integration utilizing CNN-based convolutional feature extraction, facial embedding with networks like FaceNet, and similarity-based classification.",
+        "Delved into model training intricacies emphasizing cross-validation, hyperparameter optimization with GridSearchCV to refine accuracy and robustness."
+      ],
+      "url": "https://github.com/SuyashSalvi/Face-Recognition-App",
+      "roles": [
+        "OpenCV", 
+        "Data Augmentation", 
+        "Haar Cascade",
+        "LDA",
+        "SVM"
+      ]
+    },
+    {
+      "name": "Dynamic Bookstore Management System",
+      "description": "",
+      "endDate": "2023",
+      "highlights": [
+        "Created a dynamic book catalogue with advanced search functionality, to browse, search, customized cart.",
+        "Containerized the application using Docker, and deployed leveraging Amazon EC2."
+      ],
+
+      "url": "https://github.com/SuyashSalvi/booking_sysytem_backend",
+      "roles": ["Django", "DTL", "Server-side Pagination", "Docker", "AWS"]
+    },
+    
+    {
+      "name": "Automated Item Recognition",
+      "endDate": "2024",
+      "highlights": [
+        "Created an app that automatically recognizes items and adds them to lists, ready to be used for a wide range of tasks."
+      ],
+      "url": "https://truedetect.netlify.app",
+      "roles": [
+        "ReactJS",
+        "TensorFlowJS",
+        "Object Detection"
+      ]
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
